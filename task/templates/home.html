@@ -1,6 +1,29 @@
 {% extends "base.html" %}
 
 {% block content %}
-<h1>Home</h1>
-<p>Lorem ipsum dolor sit amet consectetur adipiscing elit aliquam, bibendum mi ornare lectus quisque feugiat odio vivamus sodales, pellentesque magnis himenaeos scelerisque congue luctus dis. Congue nostra enim ac risus, curae taciti habitant facilisis conubia, integer lobortis rhoncus. Dictumst leo nunc proin sem nulla, at dui taciti luctus sollicitudin, lectus vehicula nascetur ultrices.<p>
+
+<main class="container py-5">
+    <section class="card card-body">
+        <h1 class="display-1 text-center">Django App de Tareas</h1>
+        <p>
+            Organiza tu vida con nuestra aplicación de tareas fácil de usar y altamente eficiente. Con nuestra aplicación de gestión de tareas basada en Django, puedes mantener un registro claro y conciso de tus pendientes diarios, semanales y mensuales. Crea, edita y elimina tareas con facilidad, y mantén un seguimiento de tus progresos de manera intuitiva.
+        </p>
+        <p><strong>Características Principales:</strong></p>
+        <ul>
+            <li><strong>Simplicidad en la Gestión:</strong> Crea tareas rápidamente y organízalas en categorías para una gestión eficaz.</li>
+            <li><strong>Prioridades Claras:</strong> Marca tus tareas importantes y establece fechas límite para mantener el enfoque en lo que realmente importa.</li>
+            <li><strong>Recordatorios Personalizables:</strong> Recibe recordatorios automáticos para no olvidar tus tareas importantes.</li>
+            <li><strong>Seguimiento de Progreso:</strong> Visualiza tus logros con estadísticas y gráficos simples, manteniendo la motivación alta.</li>
+            <li><strong>Acceso en Cualquier Lugar:</strong> Accede a tu lista de tareas desde cualquier dispositivo, ya sea en tu computadora de escritorio, tableta o teléfono móvil.</li>
+        </ul>
+        <p>
+            No permitas que las tareas pendientes se acumulen. Con nuestra aplicación, simplifica tu vida y logra más cada día. ¡Descárgala ahora y descubre el poder de la organización sin esfuerzo!
+        </p>
+        <div class="text-center">   
+            <a class="btn btn-secondary" href='/signin'>Signin</a>
+            <a class="btn btn-dark" href='/signup'>Signup</a>
+        </div>
+    </section>
+</main>
+
 {% endblock %}
